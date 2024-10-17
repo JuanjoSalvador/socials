@@ -4,7 +4,7 @@
       <div class="content">
         <h2 class="title">{{ website }}</h2>
         <p>{{ description }}</p>
-        <button class="button is-fullwidth is-primary" href="{{ url }}">
+        <button class="button is-fullwidth is-primary" href="{{ url }}{{ username }}/">
           Encuentrame en {{ website }}
         </button>
         <br/>

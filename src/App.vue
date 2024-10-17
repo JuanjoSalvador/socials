@@ -9,22 +9,22 @@
       <div class="column">
         <SocialItem 
           website="Mastodon" 
-          url="#" 
+          url="https://mastodon.social/" 
           username="@jsalvador" 
           description="¿Te apuntas al fediverso? Contenido principalmente tech, pero también personal.">
         </SocialItem>
 
         <SocialItem 
           website="Bluesky" 
-          url="#" 
-          username="@jsalvador.me" 
+          url="https://bsky.app/" 
+          username="profile/jsalvador.me"
           description="Únete a la revolución de AT Protocol. Diario, reflexiones y alguna chorrada que se me ocurre.">
         </SocialItem>
         
         <SocialItem 
           website="Instagram" 
-          url="#" 
-          username="@OperatorIron" 
+          url="https://www.instagram.com/" 
+          username="operadoriron" 
           description="A veces subo fotos cuando me voy de viaje.">
         </SocialItem>
       </div>

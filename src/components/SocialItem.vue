@@ -4,9 +4,9 @@
       <div class="content">
         <h2 class="title">{{ website }}</h2>
         <p>{{ description }}</p>
-        <button class="button is-fullwidth is-primary" href="{{ url }}{{ username }}/">
+        <a class="button is-fullwidth is-primary" :href="url + username" target="_blank">
           Encuentrame en {{ website }}
-        </button>
+        </a>
         <br/>
       </div>
     </div>
@@ -31,7 +31,7 @@ export default {
   text-align: left;
 }
 
-button {
+a {
   color: whitesmoke;
   font-weight: bold;
 }

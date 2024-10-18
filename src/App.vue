@@ -20,26 +20,37 @@
           username="profile/jsalvador.me"
           description="Únete a la revolución de AT Protocol. Diario, reflexiones y alguna chorrada que se me ocurre.">
         </SocialItem>
-        
+      </div>
+      <div class="column">        
         <SocialItem 
           website="Instagram" 
           url="https://www.instagram.com/" 
           username="operadoriron" 
           description="A veces subo fotos cuando me voy de viaje.">
         </SocialItem>
+
+        <SocialItem 
+          website="Twitter" 
+          url="https://twitter.com/" 
+          username="Linuxneitor" 
+          description="Un pajarito me ha dicho que todavía no me sigues en Twitter.">
+        </SocialItem>
       </div>
       <div class="column is-one-quarter"></div>
     </div>
+    <SocialFooter></SocialFooter>
   </div>
 </template>
 
 <script>
 import SocialItem from './components/SocialItem.vue'
+import SocialFooter from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    SocialItem
+    SocialItem,
+    SocialFooter
   }
 }
 </script>

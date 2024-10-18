@@ -1,5 +1,13 @@
 <template>
   <div class="card">
+    <div class="card-image">
+      <figure class="image is-2by1">
+        <img
+          src=""
+          alt="Placeholder image"
+        />
+      </figure>
+    </div>
     <div class="card-content">
       <div class="content">
         <h2 class="title">{{ website }}</h2>
@@ -20,7 +28,8 @@ export default {
     website: String,
     url: String,
     username: String,
-    description: String
+    description: String,
+    img: String
   }
 }
 </script>

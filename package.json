@@ -15,7 +15,8 @@
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "bulma": "^1.0.2",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "vue-cli-plugin-yaml": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
